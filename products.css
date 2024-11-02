@@ -63,16 +63,13 @@ nav .logo:hover {
 .product-container {
     display: flex;
     background-color: #fff;
-    color: #000;
-    border-color:yellow;
-    border-width: 20px;
+    border: 20px solid yellow;
     border-radius: 10px;
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
-    margin: 40px 0;
+    margin: 5% auto;
     padding: 20px;
     width: 90%;
     max-width: 1200px;
-    margin: 5% auto;
     transition: transform 0.3s ease;
 }
 
@@ -165,6 +162,27 @@ footer .footer-links a:hover {
     color: gold;
 }
 
+/* Quality Section */
+#quality {
+    background-color: #f9f9f9;
+    margin: 10% auto;
+    border-radius: 30px;
+    text-align: center;
+    padding: 20px;
+    border: 7px solid #f9f9f9;
+    border-bottom-color: gold;
+    font-size: 100px;
+}
+
+#qp {
+    font-size: 30px;
+    text-align: center;
+    margin: 10% auto;
+    line-height: 1.9;
+    border: 2px solid gold;
+    padding: 20px;
+}
+
 /* Responsive Design */
 @media (max-width: 768px) {
     nav {
@@ -209,40 +227,12 @@ footer .footer-links a:hover {
     .buy-now {
         padding: 10px 20px;
     }
-}
 
+    #quality {
+        font-size: 50px;
+    }
 
-
-
-#quality{
-
-background-color: #f9f9f9;
-margin-left:30%;
-margin-right:28%;
-border-radius:30x;
-text-align: center;
-padding-bottom: .5%;
-border:7px solid #f9f9f9;
-
-border-bottom-color: gold;
-margin-bottom: 10%;
-margin-top: 10%;
-font-size: 100px;;
-
-}
-
-#qp{
-
-
-font-size:30px;
-text-align: center;
-margin-bottom: 10%;
-line-height: 1.9;
-border:2px solid gold;
-margin-right:30%;
-margin-left:30%;
-padding:20px;
-
-
-
+    #qp {
+        font-size: 20px;
+    }
 }
