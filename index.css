@@ -1,0 +1,186 @@
+/* General page styling */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-image:url('https://i.pinimg.com/originals/82/71/b1/8271b1feced278cb09bc533fa3e650af.jpg');
+    color: black;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Header and Navigation */
+header, footer {
+    width: 100%;
+    background-color: #000;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+header {
+    padding: 15px 0;
+    border-left: 3px solid black;
+    border-right: 3px solid black;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 40px;
+}
+
+nav .logo {
+    font-size: 28px;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+    transition: transform 0.3s ease;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 40px;
+}
+
+nav ul li a {
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s ease, transform 0.3s ease;
+}
+
+nav ul li a:hover, .logo:hover {
+    color: gold;
+    transform: scale(1.1);
+}
+
+/* Hero Section */
+.hero {
+    text-align: center;
+    padding: 150px 20px;
+    flex: 1;  /* Pushes footer to the bottom */
+}
+
+.hero h1 {
+    font-size: 180px;
+    font-weight: bold;
+    color: white;
+    margin-bottom: 10px;
+    transition: transform 0.4s ease;
+}
+
+.hero .underline {
+    width: 200px;
+    height: 5px;
+    background-color: gold;
+    margin: 0 auto;
+    transition: width 0.4s ease;
+    margin-bottom:10%;
+}
+
+.hero .btn-products {
+    padding: 15px 40px;
+    background-color: gold;
+    color: black;
+    border: 2px solid white;
+    border-radius: 30px;
+    font-weight: bold;
+    text-decoration: none;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    margin-top: 200px;
+    margin-bottom: -10%;;
+}
+
+.hero .btn-products:hover {
+    background-color: white;
+    color: gold;
+    transform: scale(1.05);
+}
+
+/* Footer */
+footer {
+    background-color: #000;
+    text-align: center;
+    padding: 20px 0;
+    color: white;
+    border-top: 1px solid #444;
+    border-left: 3px solid black;
+    border-right: 3px solid black;
+    margin-top: auto;  /* Forces footer to stay at the bottom */
+}
+
+footer .footer-links {
+    margin-top: 10px;
+}
+
+footer .footer-links a {
+    margin: 0 10px;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+footer .footer-links a:hover {
+    color: gold;
+}
+
+/* Animations */
+.hero h1:hover {
+    transform: translateY(-10px);
+}
+
+.hero .underline:hover {
+    width: 250px;
+}
+
+/* Media Queries for Responsive Design */
+@media (max-width: 768px) {
+    nav {
+        padding: 0 20px;
+    }
+
+    nav .logo {
+        font-size: 24px;
+    }
+
+    nav ul li {
+        margin-left: 20px;
+    }
+
+    nav ul li a {
+        font-size: 16px;
+    }
+
+    .hero h1 {
+        font-size: 48px;
+    }
+
+    .hero .btn-products {
+        padding: 12px 30px;
+    }
+}
+
+@media (max-width: 480px) {
+    nav ul {
+        display: none; /* Hide navbar links for very small screens */
+    }
+
+    .hero h1 {
+        font-size: 36px;
+    }
+
+    .hero .btn-products {
+        padding: 10px 20px;
+    }
+}
