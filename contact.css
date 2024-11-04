@@ -87,6 +87,13 @@ nav .logo:hover {
     justify-content: center;
 }
 
+#contact {
+    text-align: center;
+    font-size: 40px;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+}
+
 .product-image {
     max-width: 100%;
     border-radius: 10px;
