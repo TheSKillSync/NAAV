@@ -229,7 +229,8 @@ footer .footer-links a:hover {
     }
 
     #quality {
-        font-size: 50px;
+        font-size: 35px;
+        z-index: 3;
     }
 
     #qp {
