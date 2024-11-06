@@ -4,6 +4,7 @@ body {
     padding: 0;
     font-family: Arial, sans-serif;
     background-image:url('download (43).jpeg');
+    background-repeat: no;
     color: black;
     min-height: 100vh;
     display: flex;
