@@ -172,6 +172,7 @@ footer .footer-links a:hover {
     border: 7px solid #f9f9f9;
     border-bottom-color: gold;
     font-size: 100px;
+    text-color: black;
 }
 
 #qp {
