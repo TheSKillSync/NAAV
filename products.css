@@ -164,12 +164,11 @@ footer .footer-links a:hover {
 
 /* Quality Section */
 #quality {
-    background-color: #f9f9f9;
+    background-color: black;
     margin: 10% auto;
     border-radius: 30px;
     text-align: center;
     padding: 20px;
-    border: 7px solid #f9f9f9;
     border-bottom-color: gold;
     font-size: 100px;
     text-color: black;
