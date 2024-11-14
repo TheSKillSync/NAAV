@@ -229,8 +229,10 @@ footer .footer-links a:hover {
     }
 
     #quality {
-        font-size: 35px;
+        font-size: 30px;
         z-index: 3;
+        background-color: black;
+        text-color: white;
     }
 
     #qp {
