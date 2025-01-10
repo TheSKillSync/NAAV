@@ -171,6 +171,10 @@ footer .footer-links a:hover {
     padding: 20px;
     border-bottom-color: gold;
     font-size: 100px;
+    z-index: 1;
+}
+
+#quality p {
     text-color: white;
     z-index: 2;
 }
