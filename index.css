@@ -81,6 +81,13 @@ nav ul li a:hover, .logo:hover {
     transition: transform 0.4s ease;
 }
 
+.hero h2 {
+    font-weight: bold;
+    color: white;
+    margin-bottom: 5px;
+    transition: transform 0.4s ease;
+}
+
 .hero .underline {
     width: 200px;
     height: 5px;
